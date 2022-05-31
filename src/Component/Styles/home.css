@@ -1,0 +1,71 @@
+
+.banner-bg{
+    background-image: linear-gradient(to bottom, rgba(45, 62, 80, 0.5), rgba(45, 62, 80, 0.9)), url("../img2.jpg");
+    /* background-image: url('../img3.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.alert-width{
+    width: 50%;
+}
+
+
+
+.footer {
+    display: block;
+    box-sizing: border-box;
+    
+    background-color: #7a9759;
+    clip-path: ellipse(81% 100% at 47.21% 100%);
+    }
+   .loginForm{
+       background-image: url("../bg1.png");
+       background-repeat: no-repeat;
+       background-size: cover;
+       height:570px;
+   }
+   .logoNav{
+       width: 40%;
+   }
+   .bankName{
+      font-size: 20px; 
+   }
+   .listMargin{
+       margin-left: 200px !important;
+   }
+
+   .err404{
+    
+    font-size: 140px;
+    color: #7a9759;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+   @media screen and (max-width: 480px) {
+   .listMargin{
+       margin-left: 5px !important;
+   }
+   .err404{
+    font-size: 50px; 
+   
+   }
+  }
+
+  .regForm{
+    background-image: url("../bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:700px;
+   background-attachment: fixed;
+  }
+
+  .checkBox{
+    transform: scale(2);
+}
+.profile-bg{
+    background-color: #7a9759 !important;
+}
+  
